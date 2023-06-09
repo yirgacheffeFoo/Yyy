@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mv": "/component/mv/mv",
+    "songs": "/component/songs/songs",
+    "image-text": "/component/singer/singer"
+  }
+}

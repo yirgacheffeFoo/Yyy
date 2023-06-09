@@ -1,0 +1,18 @@
+.name {
+	width: 600rpx;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 20px
+}
+.film {
+	width: 750rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.film-pic image {
+	width: 600rpx;
+	height: 400rpx;
+}
+

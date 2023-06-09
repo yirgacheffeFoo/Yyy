@@ -1,0 +1,63 @@
+.music-icon-box {
+	position: absolute;
+	width: 150upx;
+	height: 150upx;
+	border-radius: 150upx;
+	top: 36%;
+	left: 40%;
+}
+
+.music-icon {
+	width: 150upx;
+	height: 150upx;
+}
+
+.music {
+	text-align: center;
+	position: relative;
+}
+
+.music-image {
+	position: none;
+	border: 1px #676767 solid;
+	width: 400rpx;
+	height: 400rpx;
+	border-radius: 400rpx;
+	margin-top: 50px;
+	box-shadow: 3px 3px 8px #C0C0C0;
+}
+
+.name {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.comment {
+	width: 350rpx;
+	box-shadow: 3px 3px 8px #e3e3e3;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #FFFFFF;
+}
+
+.comment-box {
+	display: flex;
+	justify-content: space-around;
+}
+
+.click {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100rpx;
+	background-color: #FFFFFF;
+	box-shadow: 3px 3px 8px #e3e3e3;
+}
+
+.click image {
+	width: 70rpx;
+	height: 70rpx;
+
+}

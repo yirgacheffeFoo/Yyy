@@ -1,0 +1,68 @@
+.musicImg {
+	width: 90upx;
+	height: 90upx;
+	border-radius: 100upx;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.songsImg {
+	width: 400upx;
+	height: 400upx;
+	margin-top: 30px;
+}
+
+.songsText {
+	font-size: 20px;
+}
+
+.songBox-one {
+	text-align: center;
+	border-bottom: 2px dashed #3F536E;
+	padding-bottom: 20px;
+}
+
+.musicBox {
+	margin-left: 80upx;
+}
+
+.musicItem {
+	width: 600upx;
+	/* height: 60upx; */
+	padding: 10upx 0px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1.5px dashed #7d7d7d;
+}
+
+.musicIndex {
+	font-size: 22px;
+	font-style: italic;
+	margin-right: 10px;
+}
+
+.musicName {
+	font-size: 35upx
+}
+
+.tabbar {
+	border-top: #C8C7CC 1px solid;
+	height: 100upx;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #FFFFFF
+}
+
+.tabbar text {
+	font-size: 18px
+}
+
+.icon {
+	width: 60rpx;
+	height: 60rpx;
+	margin-left: auto;
+	margin-right: 30px;
+}

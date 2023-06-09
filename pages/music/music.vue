@@ -1,0 +1,25 @@
+<template>
+	<view class="music">
+		<view class="music-items">
+			
+			<view class="item-pic">
+				<image src="../../static/image/background-image/face.jpg" mode=""></image>
+			</view>
+			<view class="num">
+				<image src="../../static/image/icon/play.svg" mode=""></image>
+				<text>27630</text>
+			</view>
+			<view class="item-text">
+				其实你很重要，请你一定珍惜你的珍贵
+			</view>
+		</view>
+	</view>
+	
+</template>
+
+<script>
+</script>
+
+<style>
+	@import url("music.css");
+</style>

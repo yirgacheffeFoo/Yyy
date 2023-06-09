@@ -1,0 +1,43 @@
+.musicBox {
+	border-top: #C8C7CC 1px solid;
+	margin: 20rpx;
+	line-height: 28px;
+}
+.musicIndex {
+	margin-right: 10px;
+}
+.musicItem {
+	display: flex;
+	flex-direction: column;
+	border-bottom: #ddbbbb 0.5px solid;
+}
+.singer {
+	text-align: right;
+}
+.tabbar {
+	border-top: #C8C7CC 1px solid;
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #FFFFFF
+}
+.tabbar text {
+	font-size: 18px
+}
+.icon {
+	width: 60rpx;
+	height: 60rpx;
+	margin-left: auto;
+	margin-right: 30px;
+}
+.musicImg {
+	width: 90rpx;
+	height: 90rpx;
+	border-radius: 100rpx;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+

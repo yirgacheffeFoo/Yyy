@@ -1,0 +1,66 @@
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box-width {
+	width: 700upx;
+}
+
+
+.titleBox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mvDesc text {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.mvDesc view {
+	font-size: 10px;
+	margin-top: 10px;
+}
+
+.mvComment {
+	margin-top: 15px;
+}
+
+.mvComment-title {
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 1px solid #808080;
+	padding-bottom: 15px;
+}
+
+
+.userShow {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.userName {
+	color: #636363;
+	font-size: 14px;
+}
+
+.userText {
+	font-size: 14px;
+	border: 1px solid #999999;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.userImg {
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	margin-right: 5px;
+}
+
+.user {
+	padding: 5px;
+}

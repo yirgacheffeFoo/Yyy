@@ -1,0 +1,41 @@
+.music-items {
+	position: relative;
+}
+.item-pic image {
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 10px;
+}
+.item-text {
+	font-size: 14px;
+	width: 200rpx;
+	height: 60rpx;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.num {
+	position: absolute;
+	width: 100%;
+	height: 10rpx;
+	left: 100rpx;
+	top: 12px;
+	display: flex;
+	align-items: center;
+}
+.num image {
+	width: 15rpx;
+	height: 15rpx;
+}
+.num text {
+	font-size: 8px;
+	color: #ffffff;
+	margin-left: 2px;
+}
+.box {
+	width: 750rpx;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+

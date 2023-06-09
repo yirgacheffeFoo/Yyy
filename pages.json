@@ -1,0 +1,99 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+			
+		},
+		{
+			"path": "pages/search/search"
+			
+		},
+		{
+			"path": "pages/classification/classification"
+			
+		},
+		{
+			"path": "pages/me/me"
+			
+		},
+		{
+			"path": "pages/login/login"
+			
+		},
+		{
+			"path": "pages/contact/contact"
+			
+		},
+		{
+			"path": "pages/exit/exit"
+			
+		},
+		
+		{
+			"path": "pages/music/music"
+			
+		},
+		
+		{
+			"path": "pages/songsListdetail/songsListdetail"
+			
+		},
+		{
+			"path":"pages/mvDetail/mvDetail"
+		},
+		{
+		   "path":"pages/searchDetail/searchDetail",
+		   "style":{
+			   "navigationBarTitleText":"搜索"
+		   }
+		},
+		{
+			"path":"pages/musicDetail/musicDetail",
+			"style":{
+				"navigationBarTitleText":"推荐歌曲"
+			}
+		}
+		
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "one",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#000000",
+		"selectedColor":"#DD524D",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/image/icon/home-1.png",
+				"selectedIconPath": "static/image/icon/home.png"
+			},
+			{
+	
+				"text": "搜索",
+				"pagePath": "pages/search/search",
+				"iconPath": "static/image/icon/search.png",
+				"selectedIconPath": "static/image/icon/search-1.png"
+			},
+			{
+				
+				"text": "分类",
+				"pagePath": "pages/classification/classification",
+				"iconPath": "static/image/icon/type.png",
+				"selectedIconPath": "static/image/icon/type-1.png"
+			},
+			{
+				
+				"text": "我的",
+				"pagePath": "pages/me/me",
+				"iconPath": "static/image/icon/me-1.png",
+				"selectedIconPath": "static/image/icon/me.png"
+			}
+		]
+	}
+}

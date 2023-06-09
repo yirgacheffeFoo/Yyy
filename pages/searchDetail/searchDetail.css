@@ -1,0 +1,56 @@
+.search-ico image {
+	width: 80upx;
+	height: 80upx;
+}
+
+.search-text {
+	font-size: 14px;
+	width: 650upx;
+	padding-left: 20px;
+}
+
+.search {
+	display: flex;
+	flex-direction: row;
+	margin: 100upx 50upx 50upx;
+	border: 1px solid #808080;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.search-ico {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0upx 10upx;
+}
+
+.musicImg {
+	width: 90upx;
+	height: 90upx;
+	border-radius: 100upx;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.tabbar {
+	border-top: #C8C7CC 1px solid;
+	height: 100upx;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #FFFFFF
+}
+
+.tabbar text {
+	font-size: 18px
+}
+
+.icon {
+	width: 60rpx;
+	height: 60rpx;
+	margin-left: auto;
+	margin-right: 30px;
+}

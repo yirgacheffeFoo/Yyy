@@ -1,0 +1,31 @@
+.phone,
+.site {
+	font-size: 16px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #999999;
+	line-height: 25px;
+}
+.phone,
+.address {
+	margin: 20px;
+}
+.map {
+	width: 750rpx;
+	height: 750rpx;
+}
+.callme {
+	width: 750rpx;
+	height: 300rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.callme text {
+	font-size: 20px;
+	font-weight: 700;
+}
+.call {
+	width: 100rpx;
+	height: 100rpx;
+}
+

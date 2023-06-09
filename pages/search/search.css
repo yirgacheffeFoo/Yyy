@@ -1,0 +1,66 @@
+.search-ico image {
+	width: 80upx;
+	height: 80upx;
+}
+
+.search-text {
+	font-size: 14px;
+	width: 650upx;
+	padding-left: 20px;
+}
+.text{
+	font-size: 24px;
+}
+.search {
+	display: flex;
+	flex-direction: row;
+	margin: 100upx 50upx 50upx;
+	border: 1px solid #808080;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.search-ico {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0upx 10upx;
+}
+
+.line {
+	width: 100%;
+	border-bottom: #C0C0C0 1px solid;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.hot {
+	margin: 0 50upx;
+}
+
+.hot-box{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.hot-num-1 {
+	display: flex;
+	align-items: center;
+	width: 300upx;
+	height: 50px;
+}
+
+.hot-icon-1 {
+	width: 20upx;
+	height: 20upx;
+}
+.hot-icon-2{
+	width: 25upx;
+	height: 15upx;
+	margin-left: 5px;
+}
+.hot-num-1 text {
+	margin-left: 10px;
+	font-size: 35upx;
+}
+

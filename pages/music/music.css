@@ -1,0 +1,41 @@
+.music {
+	margin: 20px;
+}
+
+.music-items {
+	position: relative;
+}
+
+.item-pic image {
+	width: 200upx;
+	height: 200upx;
+	border-radius: 10px;
+}
+
+.item-text {
+	font-size: 12px;
+	width: 200upx;
+	height: 60upx;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.num {
+	position: absolute;
+	width: 60px;
+	height: 10px;
+	left: 48px;
+	top: 8px;
+}
+
+.num image {
+	width: 12px;
+	height: 12px;
+}
+
+.num text {
+	font-size: 8px;
+	color: #ffffff;
+	margin-left: 2px;
+}
